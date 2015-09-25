@@ -1,0 +1,23 @@
+group 'org.transfer.agent'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.transfer.agent.AgentApplication'
+sourceCompatibility = 7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'com.keysolutions', name: 'java-ddp-client', version: '1.0.0.+'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.transfer.agent.AgentApplication'
+    }
+}

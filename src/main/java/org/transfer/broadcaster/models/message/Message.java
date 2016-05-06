@@ -1,4 +1,4 @@
-package org.transfer.agent.models.message;
+package org.transfer.broadcaster.models.message;
 
 public class Message {
     String type;

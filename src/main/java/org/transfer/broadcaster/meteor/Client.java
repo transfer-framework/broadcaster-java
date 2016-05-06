@@ -1,4 +1,4 @@
-package org.transfer.agent.meteor;
+package org.transfer.broadcaster.meteor;
 
 import java.util.HashMap;
 

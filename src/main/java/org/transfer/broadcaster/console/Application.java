@@ -1,7 +1,7 @@
-package org.transfer.agent.console;
+package org.transfer.broadcaster.console;
 
-import org.transfer.agent.console.io.Input;
-import org.transfer.agent.console.io.Output;
+import org.transfer.broadcaster.console.io.Input;
+import org.transfer.broadcaster.console.io.Output;
 
 import java.util.HashMap;
 import java.util.Map;

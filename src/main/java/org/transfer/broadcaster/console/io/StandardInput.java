@@ -1,4 +1,4 @@
-package org.transfer.agent.console.io;
+package org.transfer.broadcaster.console.io;
 
 import java.util.Scanner;
 

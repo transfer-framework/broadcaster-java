@@ -1,4 +1,4 @@
-package org.transfer.agent.models;
+package org.transfer.broadcaster.models;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

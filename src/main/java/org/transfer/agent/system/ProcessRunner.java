@@ -45,6 +45,9 @@ public class ProcessRunner {
 
         int exitValue = process.waitFor();
 
+        inputStreamThread.join();
+        errorStreamThread.join();
+
         if (exitValue > 0) {
             // ?
         }

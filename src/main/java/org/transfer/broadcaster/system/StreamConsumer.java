@@ -1,4 +1,4 @@
-package org.transfer.agent.system;
+package org.transfer.broadcaster.system;
 
 public interface StreamConsumer {
     void consume(String line);

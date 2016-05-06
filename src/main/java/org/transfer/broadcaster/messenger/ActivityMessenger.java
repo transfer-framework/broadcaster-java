@@ -1,12 +1,12 @@
-package org.transfer.agent.messenger;
+package org.transfer.broadcaster.messenger;
 
 import com.google.gson.Gson;
-import org.transfer.agent.meteor.Client;
-import org.transfer.agent.models.TransferProcess;
-import org.transfer.agent.models.message.Event;
-import org.transfer.agent.models.message.Log;
-import org.transfer.agent.models.message.Message;
-import org.transfer.agent.models.message.Metric;
+import org.transfer.broadcaster.meteor.Client;
+import org.transfer.broadcaster.models.TransferProcess;
+import org.transfer.broadcaster.models.message.Event;
+import org.transfer.broadcaster.models.message.Log;
+import org.transfer.broadcaster.models.message.Message;
+import org.transfer.broadcaster.models.message.Metric;
 
 import java.util.HashMap;
 import java.util.Objects;

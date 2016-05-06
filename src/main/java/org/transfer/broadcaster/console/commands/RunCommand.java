@@ -1,14 +1,14 @@
-package org.transfer.agent.console.commands;
+package org.transfer.broadcaster.console.commands;
 
-import org.transfer.agent.console.Command;
-import org.transfer.agent.console.io.Input;
-import org.transfer.agent.console.io.Output;
-import org.transfer.agent.messenger.ActivityMessenger;
-import org.transfer.agent.meteor.Client;
-import org.transfer.agent.meteor.DefaultClient;
-import org.transfer.agent.models.TransferProcess;
-import org.transfer.agent.system.ProcessRunner;
-import org.transfer.agent.system.StreamConsumer;
+import org.transfer.broadcaster.console.Command;
+import org.transfer.broadcaster.console.io.Input;
+import org.transfer.broadcaster.console.io.Output;
+import org.transfer.broadcaster.messenger.ActivityMessenger;
+import org.transfer.broadcaster.meteor.Client;
+import org.transfer.broadcaster.meteor.DefaultClient;
+import org.transfer.broadcaster.models.TransferProcess;
+import org.transfer.broadcaster.system.ProcessRunner;
+import org.transfer.broadcaster.system.StreamConsumer;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

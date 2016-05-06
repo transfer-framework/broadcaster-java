@@ -1,4 +1,4 @@
-package org.transfer.agent.console.io;
+package org.transfer.broadcaster.console.io;
 
 public class StandardOutput implements Output {
 

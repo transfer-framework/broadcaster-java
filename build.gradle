@@ -1,10 +1,10 @@
-group 'org.transfer.agent'
+group 'org.transfer.broadcaster'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'org.transfer.agent.AgentApplication'
+mainClassName = 'org.transfer.broadcaster.AgentApplication'
 sourceCompatibility = 7
 
 repositories {
@@ -18,6 +18,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'org.transfer.agent.AgentApplication'
+        attributes 'Main-Class': 'org.transfer.broadcaster.AgentApplication'
     }
 }
